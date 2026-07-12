@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Shopping Cart</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h1>Shopping Cart</h1>
+
+<div id="cartItems"></div>
+
+<h2 id="total"></h2>
+
+<a href="checkout.html">
+
+<button>
+
+Proceed to Checkout
+
+</button>
+
+</a>
+
+<script>
+
+const cart=JSON.parse(localStorage.getItem("cart"))||[];
+
+const container=document.getElementById("cartItems");
+
+let total=0;
+
+cart.forEach(item=>{
+
+total+=item.price;
+
+container.innerHTML+=`
+
+<p>
+
+${item.name}
+
+- ¥${item.price}
+
+</p>
+
+`;
+
+});
+
+document.getElementById("total").innerHTML="Total : ¥"+total;
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>
+ASHA Menu
+</title>
+
+
+<link rel="stylesheet"
+href="../../menu-system/menu-style.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<h1 style="text-align:center">
+
+ASHA Menu
+
+</h1>
+
+
+
+<div id="menu"
+class="menu-container">
+
+</div>
+
+
+
+
+<script src="../../menu-system/menu-data.js"></script>
+
+
+<script>
+
+
+const box =
+document.getElementById("menu");
+
+
+
+menuItems
+
+.filter(item=>item.restaurant==="asha")
+
+.forEach(item=>{
+
+
+box.innerHTML += `
+
+
+<div class="menu-card">
+
+
+<img src="${item.image}">
+
+
+<h3>
+${item.name}
+</h3>
+
+
+<p>
+${item.category}
+</p>
+
+
+<div class="price">
+
+¥${item.price}
+
+</div>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+
+</script>
+
+
+</body>
+
+</html>
