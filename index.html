@@ -1,158 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krystal International | 株式会社クリスタルインターナショナル</title>
-    <meta name="description" content="Krystal International 日本でレストラン事業、食品販売事業を展開しています。">
-    
-    <link rel="stylesheet" href="css/style.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Krystal International 日本でレストラン事業、食品販売事業を展開しています。"
+    />
 
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/logo.png" alt="Krystal International">
-                <span>Krystal International</span>
-            </a>
-        </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Krystal International" />
+          <span>Krystal International</span>
+        </a>
+      </div>
 
-        <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+      <button class="menu-btn" aria-label="Toggle navigation">☰</button>
 
-        <nav id="navbar">
-            <ul>
-                <li><a href="index.html" data-lang="home">ホーム</a></li>
-                <li><a href="about.html" data-lang="about">会社概要</a></li>
-                <li><a href="businesses.html" data-lang="business">事業内容</a></li>
-                <li><a href="news.html" data-lang="news">ニュース</a></li>
-                <li><a href="contact.html" data-lang="contact">お問い合わせ</a></li>
-            </ul>
-            <select id="languageSwitcher">
-                <option value="jp">日本語</option>
-                <option value="en">English</option>
-            </select>
-        </nav>
+      <nav id="navbar">
+        <ul>
+          <li><a href="index.html" data-lang="home">ホーム</a></li>
+          <li><a href="about.html" data-lang="about">会社概要</a></li>
+          <li><a href="businesses.html" data-lang="business">事業内容</a></li>
+          <li><a href="news.html" data-lang="news">ニュース</a></li>
+          <li><a href="contact.html" data-lang="contact">お問い合わせ</a></li>
+        </ul>
+        <select id="languageSwitcher">
+          <option value="jp">日本語</option>
+          <option value="en">English</option>
+        </select>
+      </nav>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h1 data-lang="heroTitle">Krystal International</h1>
-            <p data-lang="heroText">信頼と品質で未来を創る</p>
-            <a href="about.html" class="btn" data-lang="heroButton">詳しく見る</a>
-        </div>
+      <div class="hero-content">
+        <h1 data-lang="heroTitle">Hello International</h1>
+        <p data-lang="heroText">信頼と品質で未来を創る</p>
+        <a href="about.html" class="btn" data-lang="heroButton">詳しく見る</a>
+      </div>
     </section>
 
     <section class="about">
-        <div class="about-image">
-            <img src="images/about.jpg" alt="Company Office">
-        </div>
-        <div class="about-text">
-            <h2 data-lang="aboutTitle">会社概要</h2>
-            <p data-lang="aboutText">Krystal International は、日本でレストラン事業、食品販売事業を展開しています。</p>
-            <p>お客様へ安心、安全、高品質なサービスを提供しています。</p>
-            <a href="about.html" class="dark-btn">もっと見る</a>
-        </div>
+      <div class="about-image">
+        <img src="images/about.jpg" alt="Company Office" />
+      </div>
+      <div class="about-text">
+        <h2 data-lang="aboutTitle">会社概要</h2>
+        <p data-lang="aboutText">
+          Krystal International
+          は、日本でレストラン事業、食品販売事業を展開しています。
+        </p>
+        <p>お客様へ安心、安全、高品質なサービスを提供しています。</p>
+        <a href="about.html" class="dark-btn">もっと見る</a>
+      </div>
     </section>
 
     <section class="business">
-        <h2 data-lang="businessTitle">事業内容</h2>
-        <div class="business-container">
-            <div class="card">
-                <img src="images/asha.jpg" alt="ASHA Restaurant">
-                <h3 data-lang="asha">ASHA Minamiurawa Ten</h3>
-                <p>本格インド料理レストラン</p>
-                <a href="restaurants/asha/index.html">詳細を見る</a>
-            </div>
-
-            <div class="card">
-                <img src="images/milan.jpg" alt="Milan Restaurant">
-                <h3 data-lang="milan">Milan Restaurant</h3>
-                <p>美味しい料理と最高のおもてなし</p>
-                <a href="restaurants/milan/index.html">詳細を見る</a>
-            </div>
-
-            <div class="card">
-                <img src="images/minimart.jpg" alt="Mini Mart">
-                <h3 data-lang="mart">Krystal Mini Mart</h3>
-                <p>食品・生活用品販売</p>
-                <a href="minimart/index.html">詳細を見る</a>
-            </div>
+      <h2 data-lang="businessTitle">事業内容</h2>
+      <div class="business-container">
+        <div class="card">
+          <img src="images/asha.jpg" alt="ASHA Restaurant" />
+          <h3 data-lang="asha">ASHA Minamiurawa Ten</h3>
+          <p>本格インド料理レストラン</p>
+          <a href="restaurants/asha/index.html">詳細を見る</a>
         </div>
+
+        <div class="card">
+          <img src="images/milan.jpg" alt="Milan Restaurant" />
+          <h3 data-lang="milan">Milan Restaurant</h3>
+          <p>美味しい料理と最高のおもてなし</p>
+          <a href="restaurants/milan/index.html">詳細を見る</a>
+        </div>
+
+        <div class="card">
+          <img src="images/minimart.jpg" alt="Mini Mart" />
+          <h3 data-lang="mart">Krystal Mini Mart</h3>
+          <p>食品・生活用品販売</p>
+          <a href="minimart/index.html">詳細を見る</a>
+        </div>
+      </div>
     </section>
 
     <section class="news">
-        <h2 data-lang="newsTitle">最新ニュース</h2>
-        <div class="news-box">
-            <span>2026.07.12</span>
-            <h3>Krystal International Website Open</h3>
-            <p data-lang="newsText">公式ウェブサイトを公開しました。</p>
-        </div>
+      <h2 data-lang="newsTitle">最新ニュース</h2>
+      <div class="news-box">
+        <span>2026.07.12</span>
+        <h3>Krystal International Website Open</h3>
+        <p data-lang="newsText">公式ウェブサイトを公開しました。</p>
+      </div>
     </section>
 
     <section class="contact">
-        <h2 data-lang="contactTitle">お問い合わせ</h2>
-        <p data-lang="contactText">お気軽にお問い合わせください</p>
-        <a href="contact.html" class="btn">Contact Us</a>
+      <h2 data-lang="contactTitle">お問い合わせ</h2>
+      <p data-lang="contactText">お気軽にお問い合わせください</p>
+      <a href="contact.html" class="btn">Contact Us</a>
     </section>
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-column">
-                <img src="images/logo-white.png" class="footer-logo" alt="Logo">
-                <h3>Krystal International</h3>
-                <p>信頼と品質で未来を創る</p>
-                <p>Japan</p>
-            </div>
-            
-            <div class="footer-column">
-                <h4>メニュー</h4>
-                <a href="index.html">ホーム</a>
-                <a href="about.html">会社概要</a>
-                <a href="businesses.html">事業内容</a>
-                <a href="news.html">ニュース</a>
-                <a href="contact.html">お問い合わせ</a>
-            </div>
-            
-            <div class="footer-column">
-                <h4>事業</h4>
-                <a href="restaurants/asha/index.html">ASHA Restaurant</a>
-                <a href="restaurants/milan/index.html">Milan Restaurant</a>
-                <a href="minimart/index.html">Krystal Mini Mart</a>
-            </div>
-            
-            <div class="footer-column">
-                <h4>お問い合わせ</h4>
-                <p>📍 Japan</p>
-                <p>📞 +81 XX XXXX XXXX</p>
-                <p>✉ info@krystalinternational.jp</p>
-                <div class="social">
-                    <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://youtube.com/" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://twitter.com/" target="_blank" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                </div>
-            </div>
+      <div class="footer-container">
+        <div class="footer-column">
+          <img src="images/logo-white.png" class="footer-logo" alt="Logo" />
+          <h3>Krystal International</h3>
+          <p>信頼と品質で未来を創る</p>
+          <p>Japan</p>
         </div>
-        <div class="footer-bottom">
-            © 2026 Krystal International All Rights Reserved.
+
+        <div class="footer-column">
+          <h4>メニュー</h4>
+          <a href="index.html">ホーム</a>
+          <a href="about.html">会社概要</a>
+          <a href="businesses.html">事業内容</a>
+          <a href="news.html">ニュース</a>
+          <a href="contact.html">お問い合わせ</a>
         </div>
+
+        <div class="footer-column">
+          <h4>事業</h4>
+          <a href="restaurants/asha/index.html">ASHA Restaurant</a>
+          <a href="restaurants/milan/index.html">Milan Restaurant</a>
+          <a href="minimart/index.html">Krystal Mini Mart</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>お問い合わせ</h4>
+          <p>📍 Japan</p>
+          <p>📞 +81 XX XXXX XXXX</p>
+          <p>✉ info@krystalinternational.jp</p>
+          <div class="social">
+            <a
+              href="https://facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://youtube.com/" target="_blank" aria-label="YouTube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              aria-label="X Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Krystal International All Rights Reserved.
+      </div>
     </footer>
 
     <script>
-        const menuBtn = document.querySelector('.menu-btn');
-        const navbar = document.querySelector('#navbar');
+      const menuBtn = document.querySelector(".menu-btn");
+      const navbar = document.querySelector("#navbar");
 
-        menuBtn.addEventListener('click', () => {
-            navbar.classList.toggle('active');
-        });
+      menuBtn.addEventListener("click", () => {
+        navbar.classList.toggle("active");
+      });
     </script>
     <script src="js/language.js"></script>
     <script src="js/script.js"></script>
-
-</body>
+  </body>
 </html>
